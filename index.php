@@ -15,7 +15,7 @@
 <!DOCTYPE html>
 <head>
     <title>Gudybay</title>
-    <link rel="stylesheet" type="text/css" href="<?php echo INCLUDE_PATH; ?>css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 <section>
