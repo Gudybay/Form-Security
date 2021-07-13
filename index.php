@@ -5,7 +5,7 @@
        $nome = $_POST['nome'];
        $email = $_POST['email'];
        $telefone = $_POST['telefone'];
-       $sql = MySql::conectar()->prepare("INSERT INTO `tb_admin.usuarios` VALUES (null,?,?,?)");
+       $sql = MySql::conectar()->prepare("INSERT INTO `tb_admin.usuarios` VALUES (null,?,?,?)"); //NOME DA SUA TABELA, CASO TENHA DUVIDA ACESSA O VIDEO https://www.youtube.com/watch?v=gFk__6dK-HQ
        $sql->execute(array($nome,$email,$telefone));
             header('location:'.INCLUDE_PATH);
    };   
